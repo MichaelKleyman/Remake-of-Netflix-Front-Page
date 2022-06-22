@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.logo {
+    color: red;
+    display: inline-block;
+    font-size: 1.8rem;
+    position: relative;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.netflix {
+    text-decoration: none;
+    color: red;
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    z-index: 2;
+}
+
+.netflix:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.middle {
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 180px;
+}
+
+h1 {
+    width: 100%;
+    font-weight: unset;
+    margin: 0.67rem 0;
+}
+
+img {
+    margin: 0 2vw 0 0;
+    width: 10vw;
+    border-style: solid;
+}
+
+.names {
+    margin: auto 90px 60px 60px;
+    color: grey;
+}
+
+#button {
+    border: gray;
+    border-style: solid;
+    color: gray;
+    width: 20vw;
+    margin: 15px auto 15px auto;
+    padding: 10px;
+}
+
+img:hover {
+    border-style: solid;
+    border: white;
+    text-decoration: solid;
+}
+
+.button {
+    text-decoration: none;
+    color: gray;
+}
+
+.button:hover {
+    text-decoration: underline white;
+    color: white;
+}
+
+
